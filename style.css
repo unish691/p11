@@ -1,0 +1,28 @@
+body{font-family:"Rubik Vinyl", serif;
+    background-color:thistle;
+    color:aqua
+     }
+     a:hover{color:red;
+     }
+     ul>li{
+        color:black;
+     }
+    h1+p{
+        color:teal;
+    }
+    li:nth-child(2){
+        background-color:white;
+    }
+    div:not(.class4){
+        border:2px dashed teal;
+    }
+    ul li::before{
+        content:"🚀";
+    }
+    ul li::after{
+        content:"🌌";
+    }
+    p::first-letter{
+        font-size:200%;
+        color:blueviolet;
+    }
